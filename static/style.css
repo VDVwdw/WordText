@@ -1,0 +1,87 @@
+/* Общие стили */
+body {
+    background-color: #f0f4f8; /* Нежный фон */
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+    display: flex;
+    justify-content: center; /* Центрируем основной контейнер */
+}
+
+/* Контейнер для игры */
+.container {
+    max-width: 400px; /* Основной контейнер */
+    margin: 20px; /* Отступы */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Заголовки */
+h1 {
+    color: #007bff;
+}
+
+/* Стили для угаданных букв */
+.correct-guesses {
+    font-size: 2em;
+    letter-spacing: 10px;
+    color: #495057;
+}
+
+/* Чат */
+.chat-window {
+    position: fixed; /* Фиксируем чат справа */
+    right: 20px; /* Отступ справа */
+    top: 100px; /* Отступ сверху */
+    width: 250px; /* Ширина чата */
+    max-height: 300px; /* Максимальная высота */
+    overflow-y: auto; /* Прокрутка */
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Элементы сообщений */
+.message {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Стили для собственных и чужих сообщений */
+.my-message {
+    background-color: #d4edda; /* Светло-зеленый для собственных сообщений */
+}
+
+.other-message {
+    background-color: #f8d7da; /* Светло-красный для сообщений других */
+}
+
+/* Стили для форм и кнопок */
+.form-control {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary, .btn-danger, .btn-secondary {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Реклама */
+.advertisement {
+    margin: 20px; /* Отступы */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 20px; /* Привязываем к низу страницы */
+    left: 0; /* Центрируем по горизонтали */
+    right: 0; /* Центрируем по горизонтали */
+}
